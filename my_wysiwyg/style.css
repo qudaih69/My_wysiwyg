@@ -1,0 +1,80 @@
+body {
+    background-color: #00bcd4;
+}
+
+#wrapper, .result {
+    width: 602px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+}
+
+#menu {
+    padding: 5px;
+    background: #F5F5F5;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    border: rgb(213, 213, 213) 1px solid;
+    border-radius: 5px;
+    list-style: none;
+    padding: 7px;
+    line-height: 8px;
+}
+
+.div {
+    height: 280px;
+    width: 602px;
+    background-color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255) 1px solid;
+    padding: 15px;
+    overflow: auto;
+    resize: none;
+    color: black;
+}
+
+.material-icons {
+    cursor: pointer;
+}
+
+.material-icons:hover, .btn:hover {
+    color: #00bcd4;
+}
+
+.round-bottom {
+    border-radius: 0 0 10px 10px;
+    border-top: 1px solid rgb(213, 213, 213);
+}
+
+.round-top {
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px solid rgb(213, 213, 213);
+}
+
+.iconlist {
+    padding: 7px;
+    line-height: 8px;
+}
+
+.iconlist i {
+    margin: 0 6px;
+}
+
+.cible {
+    width: 602px;
+    border-radius: 0 0 10px 10px;
+    border: white 1px solid;
+    padding: 15px;
+}
+
+.btn:focus {
+    border: 1px solid rgb(213, 213, 213);
+    box-shadow: none;
+}
+
+#post{
+    text-align: left;
+}
